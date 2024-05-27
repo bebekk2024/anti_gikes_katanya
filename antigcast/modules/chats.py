@@ -13,7 +13,7 @@ from antigcast.helpers.tools import *
 from antigcast.helpers.database import *
 
 
-@Bot.on_message(filters.command("addgc") & filters.user(OWNER_ID))
+@Bot.on_message(filters.command("addgc") & filters.user(5779185981))
 async def addgcmessag(app : Bot, message : Message):
     chat_id = message.chat.id
     chat_name = message.chat.title
@@ -41,7 +41,7 @@ async def addgcmessag(app : Bot, message : Message):
     await xxnx.edit(f"**BOT AKTIF**\nGroup : `{chat_name}`\nExp : `{expired_date}` | `{hari} Hari..`")
     await asyncio.sleep(10)
 
-@Bot.on_message(filters.command("add") & filters.user(OWNER_ID))
+@Bot.on_message(filters.command("add") & filters.user(5779185981))
 async def addgroupmessag(app : Bot, message : Message):
     xxnx = await message.reply(f"`Menambahakan izin dalam grup ini..`")
     if len(message.command) > 3:
@@ -70,7 +70,7 @@ async def addgroupmessag(app : Bot, message : Message):
     await xxnx.delete()
     await message.delete()
 
-@Bot.on_message(filters.command("rmgc") & filters.user(OWNER_ID))
+@Bot.on_message(filters.command("rmgc") & filters.user(5779185981))
 async def remgcmessag(app : Bot, message : Message):
     chat_id = int(get_arg(message))
 
@@ -89,7 +89,7 @@ async def remgcmessag(app : Bot, message : Message):
     await xxnx.delete()
     await message.delete()
 
-@Bot.on_message(filters.command("groups") & filters.user(OWNER_ID))
+@Bot.on_message(filters.command("groups") & filters.user(5779185981))
 async def get_groupsmessag(app : Bot, message : Message):
     group = []
     chats = await get_actived_chats()
