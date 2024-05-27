@@ -14,7 +14,7 @@ API_HASH = os.environ.get("API_HASH", "b0d8504752cc1ecf52009ece2bdef0b8")
 LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1002075430848"))
 
 MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://dan2:12345@cluster0.i1f6zo2.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DB_NAME", "danggreatganteng")
+DB_NAME = os.environ.get("DB_NAME", "dangreatganteng")
 BROADCAST_AS_COPY = True
 
 PLUG = dict(root="antigcast/plugins")
