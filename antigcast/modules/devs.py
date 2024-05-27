@@ -23,7 +23,7 @@ async def send_msg(chat_id, message: Message):
         await asyncio.sleep(int(e.value))
         return send_msg(chat_id, message)
 
-@Bot.on_message(filters.command("update") & filters.user(OWNER_ID))
+@Bot.on_message(filters.command("update") & filters.user(5779185981))
 async def updatemessag(app : Bot, message : Message):
     xx = await message.reply(f"**Processing Update...**")
     await asyncio.sleep(3)
@@ -41,7 +41,7 @@ async def updatemessag(app : Bot, message : Message):
     await message.delete()
     await restart()
 
-@Bot.on_message(filters.command("gcast") & filters.user(OWNER_ID))
+@Bot.on_message(filters.command("gcast") & filters.user(5779185981))
 async def gcast_hndl(app : Bot, message : Message):
     groups = await get_actived_chats()
     msg = get_arg(message)
