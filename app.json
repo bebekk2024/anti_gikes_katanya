@@ -1,7 +1,7 @@
 {
     "name": "Anti Gcast",
     "description": "I am Simple Anti Gcast",
-    "logo": "https://github.com/hitokizzy/anti_gikes_katanya",
+    "logo": "https://github.com/bebekk2024/anti_gikes_katanya",
     "keywords": [
         "Auto",
         "Approved",
@@ -10,35 +10,35 @@
         "Link",
         "Bot"
     ],
-    "repository": "https://github.com/hitokizzy/anti_gikes_katanya",
+    "repository": "https://github.com/bebekk20204/anti_gikes_katanya",
     "env": {
         "APP_ID": {
             "description": "Your APP ID",
-            "value": ""
+            "value": "26477680"
         },
         "API_HASH": {
             "description": "Your API Hash",
-            "value": ""
+            "value": "b0d8504752cc1ecf52009ece2bdef0b8"
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "6726190227:AAE_6tUiU3MnMchzVXKWkeNKkG9LpJGJA7c"
         },        
         "LOG_CHANNEL_ID": {
             "description": "Group private",
-            "value": "-100"
+            "value": "-1002075430848"
         },
         "MONGO_DB_URI": {
             "description": "Database Mongodb",
-            "value": "-100"
+            "value": "mongodb+srv://dan2:12345@cluster0.i1f6zo2.mongodb.net/?retryWrites=true&w=majority"
         },
         "OWNER_NAME": {
             "description": "Nama Owner",
-            "value": "-100"
+            "value": "mhmdwldnnnn"
         },
         "OWNER_ID": {
             "description": "Owner ID",
-            "value": "-100"
+            "value": "5779185981"
         }
     },
     "buildpacks": [
